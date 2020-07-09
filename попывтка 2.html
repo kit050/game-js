@@ -1,0 +1,49 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Лабиринт</title>
+<style>
+  canvas {
+    border: 6px double black;
+    background: white;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: none;
+  }
+
+  button {
+    padding: 8px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+
+   
+  }  
+  body{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	height: 100%;
+	background: -o-radial-gradient(#4CCEB2, #2F8FD8);	 
+	
+}
+</style>
+<script src="maze.js"></script>
+</head>
+<body>
+   <canvas id="canvas"></canvas>
+   <div>
+  
+      <button onclick="loadEasy()">рестарт</button>
+   </div>
+
+   <img id="face" src="face.png">
+</body>
+</html>
+ 
